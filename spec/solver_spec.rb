@@ -13,4 +13,9 @@ describe Solver do
       expect{ solver.factorial(-5) }.to raise_error("Negative Integer -5 detected, expected 0 or positive integer", ArgumentError)
     end
   end
+  context "When testing reverse method" do
+    it "Input 'hello' returns 'olleh'" do
+      expect(solver.reverse('hello')).to eq 'olleh'
+    end
+  end
 end
