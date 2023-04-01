@@ -9,7 +9,11 @@ class Solver
     end
   end
   def reverse word
-    word
+    reversed = ''
+    word.split('').reverse_each do |l|
+      reversed += l
+    end
+    reversed
   end
   def fizzbuzz n
     string
