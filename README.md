@@ -48,9 +48,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [oop-school-library] <a name="about-project"></a>
+# 📖 Test Driven Development <a name="about-project"></a>
 
-**[oop-school-library]** Is a Library manager for a school.
+**[TDD]** Is an open source project showing how to work with the test driven development...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -81,29 +81,38 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-ruby installed 
+`ruby installed`
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-  git clone https://github.com/Swarzstein/oop-school-library.git
-  cd oop-school-library
+  `git clone https://github.com/Swarzstein/TDD.git`
+  `cd TDD`
 
 
 ### Install
 
 Install this project with:
 
-  bundle install
+  `bundle install`
 
 ### Usage
 
 To run the project, execute the following command:
 
-ruby app.rb
+`ruby main.rb`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Test
+
+To run the tests, execute the following command:
+
+`rspec spec`
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- AUTHORS -->
 
@@ -122,14 +131,6 @@ ruby app.rb
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[Adding people]**
-- [ ] **[Adding books]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
