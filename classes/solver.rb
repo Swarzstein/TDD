@@ -1,30 +1,31 @@
 class Solver
-  def factorial n
-    if n > 1
-      n * factorial(n - 1)
-    elsif n == 0 || n == 1
+  def factorial(num)
+    if num > 1
+      num * factorial(num - 1)
+    elsif [0, 1].include?(num)
       1
     else
-      raise ArgumentError, "Negative Integer #{n} detected, expected 0 or positive integer"
+      raise ArgumentError, "Negative Integer #{num} detected, expected 0 or positive integer"
     end
   end
-  def reverse word
+
+  def reverse(word)
     reversed = ''
-    word.split('').reverse_each do |l|
+    word.chars.reverse_each do |l|
       reversed += l
     end
     reversed
   end
 
-  def fizzbuzz n
-    if (n % 3).zero? && (n % 5).zero?
+  def fizzbuzz(num)
+    if (num % 3).zero? && (num % 5).zero?
       'fizzbuzz'
-    elsif (n % 3).zero?
+    elsif (num % 3).zero?
       'fizz'
-    elsif (n % 5).zero?
+    elsif (num % 5).zero?
       'buzz'
     else
-      n.to_s
+      num.to_s
     end
   end
 end
