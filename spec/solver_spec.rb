@@ -10,7 +10,7 @@ describe Solver do
       expect(solver.factorial(0)).to eq 1
     end
     it "Input of negative number raises an exception" do
-      expect(solver.factorial(-5)).to raise_error()
+      expect{ solver.factorial(-5) }.to raise_error("Negative Integer -5 detected, expected 0 or positive integer", ArgumentError)
     end
   end
 end
